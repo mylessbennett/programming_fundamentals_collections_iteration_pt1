@@ -30,13 +30,23 @@ names_and_ages = {
     'Tudor': 24,
     'Emma': 15
 }
-
-print(artists[0:2])
 #---------------------------------------------------------------
-for movie, year in fav_movies.items():
-    print("{} came out in {}".format(movie, year))
+total_population = 0
+for keys, population in cities_pop.items():
+    total_population = total_population + population
+print(total_population)
 #---------------------------------------------------------------
-print(sorted(ages, reverse = True))
+for name, age in names_and_ages.items():
+    if age > 21:
+        print("{} is old".format(name))
+    else:
+        print("{} is young".format(name))
 #---------------------------------------------------------------
-fav_movies['beauty and the beast'] = [1991, 2017]
-print(fav_movies)
+print(fav_colours[2:])
+#---------------------------------------------------------------
+for age in ages:
+    print(age + 1)
+#---------------------------------------------------------------
+fav_colours.append('yellow')
+fav_colours.append('blue')
+print(fav_colours)

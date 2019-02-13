@@ -32,9 +32,12 @@ names_and_ages = {
 }
 
 print(fav_colours[len(fav_colours) - 1])
+#---------------------------------------------------------------
 cities_pop['prague'] = 1200000
+#---------------------------------------------------------------
 coin_flip_reversed = coin_flip.reverse()
+#---------------------------------------------------------------
 print(cities_pop['miami'])
-
+#---------------------------------------------------------------
 for artist in artists:
     print("I think {} is great".format(artist))

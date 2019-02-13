@@ -34,19 +34,19 @@ names_and_ages = {
 for age in ages:
     if age < 22:
         print(age)
-
+#---------------------------------------------------------------
 oldest = 0
 for age in ages:
     if age > oldest:
         oldest = age
 
 print(oldest)
-
+#---------------------------------------------------------------
 print(coin_flip.count('heads'))
-
+#---------------------------------------------------------------
 artists.pop()
 print(artists)
-
+#---------------------------------------------------------------
 # changing miami population
 cities_pop['miami'] = 500000
 print(cities_pop)
